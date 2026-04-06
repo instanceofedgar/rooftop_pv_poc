@@ -10,7 +10,7 @@ Estimates PV system size and energy production for a given address using a footp
 
 ## How It Works
 
-1. **Get Building Footprint**: retrieves the building footpriont for a given address from OpenStreetMap via the Overpass API
+1. **Get Building Footprint**: retrieves the building footprint for a given address from OpenStreetMap via the Overpass API
 2. **Calculate Available Roof Area**: Computes the footprint area and applies a custom availability factor
 3. **Size PV System**: Calculates system capacity based on available area and an arbitrary panel density (0.20 kW/m²)
 4. **Get PV Energy Production**: Queries NREL's PVWatts API for location-specific solar irradiance and annual energy production potential
