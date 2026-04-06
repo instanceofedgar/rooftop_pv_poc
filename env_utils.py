@@ -1,8 +1,6 @@
-import os
 import json
 import time
 import folium
-import webbrowser
 import requests
 from shapely.geometry import shape, Point
 from shapely.ops import transform
